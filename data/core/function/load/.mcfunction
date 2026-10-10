@@ -9,3 +9,4 @@
 
 # 実行完了メッセージ
     tellraw @a ["",{storage:"global:",nbt:Prefix.info,interpret:true},{text:"データパックの読み込み完了"}]
+
