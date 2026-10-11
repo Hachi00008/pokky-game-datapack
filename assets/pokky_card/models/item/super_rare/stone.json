@@ -1,0 +1,6 @@
+{
+    "parent": "item/paper",
+    "textures": {
+        "layer0":"pokky_card:item/super_rare/sr_stone"
+    }
+}
