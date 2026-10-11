@@ -1,14 +1,25 @@
 
 execute store result score @s pack_roll run random value 1..11
 
-execute if score @s pack_roll matches 1 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：スバル","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 2 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：エミリア","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 3 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ベアトリス","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 4 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ガーフィール","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 5 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：フェルン","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 6 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：シュタルク","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 7 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ハイター","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 8 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：アイゼン","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 9 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ジバニャン","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 10 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ウィスパー","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
-execute if score @s pack_roll matches 11 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：メラメライオン","color":"green","italic":false}',minecraft:custom_data={pokkicard:1}] 1
+execute if score @s pack_roll matches 1 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：スバル","color":"green","italic":false}',minecraft:lore=['{"text":"手：✊ グー","color":"white","italic":false}','{"text":"Speed：5","color":"yellow","italic":false}','{"text":"スキル：死に戻り","color":"aqua","italic":false}','{"text":"効果：負けた時、1回だけ再勝負。再勝負時Speedは3。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 2 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：エミリア","color":"green","italic":false}',minecraft:lore=['{"text":"手：✋ パー","color":"white","italic":false}','{"text":"Speed：7","color":"yellow","italic":false}','{"text":"スキル：氷魔法","color":"aqua","italic":false}','{"text":"効果：相手の次のカードのSpeedを-2。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 3 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ベアトリス","color":"green","italic":false}',minecraft:lore=['{"text":"手：✋ パー","color":"white","italic":false}','{"text":"Speed：6","color":"yellow","italic":false}','{"text":"スキル：禁書庫","color":"aqua","italic":false}','{"text":"効果：勝負前に自分の次のカードを確認できる。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 4 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ガーフィール","color":"green","italic":false}',minecraft:lore=['{"text":"手：✊ グー","color":"white","italic":false}','{"text":"Speed：7","color":"yellow","italic":false}','{"text":"スキル：獣化","color":"aqua","italic":false}','{"text":"効果：Speed勝負で負けた時、+3して再比較。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 5 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：フェルン","color":"green","italic":false}',minecraft:lore=['{"text":"手：✊ グー","color":"white","italic":false}','{"text":"Speed：9","color":"yellow","italic":false}','{"text":"スキル：高速魔法","color":"aqua","italic":false}','{"text":"効果：Speed勝負に勝つと次のカードのSpeed+1。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 6 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：シュタルク","color":"green","italic":false}',minecraft:lore=['{"text":"手：✋ パー","color":"white","italic":false}','{"text":"Speed：8","color":"yellow","italic":false}','{"text":"スキル：勇者の斧","color":"aqua","italic":false}','{"text":"効果：負けた時、相手の次のカードのSpeed-2。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 7 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ハイター","color":"green","italic":false}',minecraft:lore=['{"text":"手：✋ パー","color":"white","italic":false}','{"text":"Speed：5","color":"yellow","italic":false}','{"text":"スキル：僧侶魔法","color":"aqua","italic":false}','{"text":"効果：負けた時、自分の次のカードのSpeed+3。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 8 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：アイゼン","color":"green","italic":false}',minecraft:lore=['{"text":"手：✊ グー","color":"white","italic":false}','{"text":"Speed：6","color":"yellow","italic":false}','{"text":"スキル：不屈","color":"aqua","italic":false}','{"text":"効果：Speed勝負で負けた時、+2して再比較。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 9 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ジバニャン","color":"green","italic":false}',minecraft:lore=['{"text":"手：✊ グー","color":"white","italic":false}','{"text":"Speed：7","color":"yellow","italic":false}','{"text":"スキル：地縛霊の執念","color":"aqua","italic":false}','{"text":"効果：相手がグーなら、負けを引き分けに変更できる。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 10 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：ウィスパー","color":"green","italic":false}',minecraft:lore=['{"text":"手：✋ パー","color":"white","italic":false}','{"text":"Speed：5","color":"yellow","italic":false}','{"text":"スキル：妖怪大辞典","color":"aqua","italic":false}','{"text":"効果：相手のカード1枚の名前とスキルを確認できる。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
+execute if score @s pack_roll matches 11 run give @s minecraft:paper[minecraft:custom_name='{"text":"R：メラメライオン","color":"green","italic":false}',minecraft:lore=['{"text":"手：✌ チョキ","color":"white","italic":false}','{"text":"Speed：6","color":"yellow","italic":false}','{"text":"スキル：燃える闘志","color":"aqua","italic":false}','{"text":"効果：負けた後、次の勝負に勝つと追加ポイント。","color":"gray","italic":false}'],minecraft:custom_data={pokkicard:1}] 1
+
